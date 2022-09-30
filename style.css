@@ -18,10 +18,14 @@ h3{
     width: 40%;
     float:left;
     margin-left: 5%;
-    padding: 2%;
+    padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 70%;
+}
+section{
+    height: 450px;
+    padding-top: 5px;
 }
 .link-button{
     text-decoration: none;
@@ -33,9 +37,26 @@ h3{
 }
 .block{
     box-shadow: 5px 5px 20px gray;
-    border-radius: 10px;
-    height: 80%;
+    border-radius: 5px;
+    height: 50%;
 }
-.new-block{
-    height: 500px;
+#full-stak{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, lightsalmon);
+    border-image-slice: 1;
+}
+#subject{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color:darkmagenta;
+}
+#exp{
+    color:aqua;
+}
+section div ol{
+    color:darkgreen;
 }
