@@ -7,6 +7,9 @@ h1{
 h2{
     font-size: 30px;
 }
+h3{
+    font-size: 30px;
+}
 .name-highlight{
     color: orange;
 }
@@ -29,5 +32,10 @@ h2{
     font-weight:bold;
 }
 .block{
-    box-shadow: 5px 5px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+.new-block{
+    height: 500px;
 }
