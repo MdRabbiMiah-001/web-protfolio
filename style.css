@@ -10,6 +10,7 @@ h2{
 .name-highlight{
     color: orange;
 }
+
 .half-width{
     width: 40%;
     float:left;
@@ -26,4 +27,7 @@ h2{
     border-radius: 7px;
     color: white;
     font-weight:bold;
+}
+.block{
+    box-shadow: 5px 5px;
 }
